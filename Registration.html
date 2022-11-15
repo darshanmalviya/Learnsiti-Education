@@ -1,0 +1,68 @@
+<html>
+<head><title>Registration Form </title>
+<link rel="stylesheet" href="css/btn.css">
+</head>
+<body background="..\les\images\abt.png">
+<center>
+<img src= "..\les\images\18.png" height="150" width="150">
+<h1>Student Registration Form</h1>
+<form  method="POST" action="registration.php">
+<table border="5" width="900" height="700">
+<tr><td align='center'><b>Enrollment No.</b></td><td><input type="text" name='id' value="" required></td></tr>
+<tr><td align='center'><b>Name</b></td><td><input type="text" name='name' required></td></tr>
+<tr><td align='center'><b>Father's Name</b></td><td><input type="text" name='fname' value="" required></td></tr>
+<tr><td align='center'><b>Date of Birth</b></td><td><input type="text" name='dob' value="" required></td></tr>
+<tr><td align='center'><b>Sex</b></td><td align='center'>Male <input type="radio" name="sex" value="" required>
+Female <input type="radio" name="sex" value="" required></td></tr>
+<tr><td align='center'><b>Address</b></td><td><input type="text" name='address' value="" required></td></tr>
+<tr><td align='center'><b>Postal Code</b></td><td><input type="pscode" name='s6' value="" required></td></tr>
+<tr><td align='center'><b>City</b></td><td><input type="text" name='city' value="" required></td></tr>
+<tr><td align='center'><b>Mobile No.</b></td><td><input type="mobile" name='s8' value="" required></td></tr>
+<tr><td align='center'><b>Email ID</b></td><td><input type="text" name='email' value="" required></td></tr>
+<td align='center'><b>Hobbies</b></td>
+<td align='center'>Drawing<input type="checkbox" name="hobby" value="">
+Singing<input type="checkbox" name="hobby" value="">
+Dancing<input type="checkbox" name="hobby" value="">
+Sketching<input type="checkbox" name="hobby" value="">
+Others<input type="checkbox" name="hobby" value="">
+<input type="text" name="Hobby" value=""></td></tr>
+<tr><td align='center'><b>Previous School</b></td><td><input type="text" name='pre_school' value="" required></td></tr>
+<tr><td align='center'><b>Class</b></td><td><select name='class' size='2' value="" >
+                         <option>Nursery</option>
+                         <option>LKG</option>
+                         <option>UKG</option>
+                         <option>Class I</option>
+                         <option>Class II</option>
+                         <option>Class III</option>
+                         <option>Class IV</option>
+                         <option>Class V</option>
+                         <option>Class VI</option>
+                         <option>Class VII</option>
+                         <option>Class VIII</option>
+                         <option>Class IX</option>
+                         <option>Class X</option>
+                         <option>Class XI</option>
+                         <option>Class XII</option>
+</td></tr>
+<tr><td align='center'><b>Board</b></td><td><select name='board' size='0' value="">
+					   <option>CBSE</option>
+					   <option>MP BOARD</option>
+</td></tr>
+<tr><td align='center'><b>Stream</b></td><td><select name='stream' size='0' value="">
+					   <option>PCB</option>
+					   <option>PCM</option>
+					   <option>COMMERCE</option>
+					   <option>HUMANITIES/ARTS</option>
+<tr><td align='center'><b>TRANSPORT</b></td><td>Yes <input type="radio" name="transport" value="" required>
+No <input type="radio" name="transport" value="" required></td></tr>
+<tr><td colspan="2" align="center">
+<button type="submit" name="submit" value="Submit">Submit</button>
+<button type="reset" value="Reset">Reset</button>
+</td></tr>
+</table>
+</form>
+<br/><br/>
+<a href="home.html"><button type="back">Back</button></a>
+<br/><br/><br/>
+</body>
+</html>

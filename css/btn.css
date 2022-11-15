@@ -1,0 +1,19 @@
+body {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   font-family: Arial;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+
+}
+button:hover {
+  opacity: 0.5;
+}
+

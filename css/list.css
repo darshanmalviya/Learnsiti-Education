@@ -1,0 +1,25 @@
+body{
+       font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{    
+       float: center; 
+       list-style-type: none; 
+	   margin-top: 80px;
+}
+ul li{ 
+       display: inline-block;
+	   Padding: 70px;
+}  
+ul li a{
+
+       text-decoration: none;
+       color: black;
+       padding: 5px 20px;
+       border: 1px solid ; 
+	   transition:0.6s ease;
+}
+ul li a:hover{
+        background-color: #000000c4;
+		color: white;
+}
